@@ -1,17 +1,9 @@
-# 📌 Dependencias principales
+# Dependencias principales
 psycopg2-binary==2.9.10  # Conector de PostgreSQL
 tkcalendar==1.6.1  # Selector de fechas para Tkinter
-python-dateutil==2.9.0.post0  # Compatible con 3.13
-pyinstaller==6.12.0  # Compatible con Python 3.13
-pillow==10.2.0  # Manejo de imágenes en Tkinter
-
-# 📌 Manejo de configuración y logs
+python-dateutil==2.9.0.post0  # Manejo de fechas
+# Manejo de configuración y logs
 python-dotenv==1.0.1  # Carga variables de entorno (.env)
-loguru==0.7.2  # Mejor sistema de logs
+loguru==0.7.2  # Sistema de logs
 
-# 📌 Dependencias de desarrollo (opcional)
-pip==25.0.1
-setuptools==69.5.1
-pytest==8.1.1  # Framework de pruebas
-black==24.3.0  # Formateador de código
-flake8==7.0.0  # Linter de código
+

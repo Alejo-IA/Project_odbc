@@ -1,3 +1,4 @@
+import pyodbc  # Importar el módulo pyodbc
 from config.odbc_config import DatabaseConfig
 
 def crear_tablas():
